@@ -1,4 +1,4 @@
-# Whispers
+# Whispers - An E2E encrypted chat application that moves messages over push notifications.
 
 ## IMPORTANT
 This project is just a PoC, could not be ready for production BUT i am using it as my personal chat app for my family and friends.
