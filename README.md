@@ -1,5 +1,7 @@
 # Whispers
 
+## IMPORTANT
+This project is just a PoC, could not be ready for production BUT i am using it as my personal chat app for my family and friends.
 This repository contains both the backend and frontend projects for the Whispers application.
 
 ## Project Structure
