@@ -8,7 +8,7 @@ This repository contains both the backend and frontend projects for the Whispers
 My name is Luis Alcaraz. I have been a Software Engineer, Network Administrator and others in between since 2005. You can find more about me at https://lalcaraz.com
 
 ## Why does Whispers exists?
-Even that I write software from 9 to 5, I ocassionally do some personal projects on weekends to spice up my skills. Even that not all of them are "exciting enough" to be made public, this one is different given the current political events happening around the globe. While I'm not thinking on putting this into the AppStore or Play Stores I wanted to make it public because someone might find it useful. That being said, I TAKE NO RESPONSABILITY OVER THE SECURITY OF THIS APP. I made it as secure as I could given that was a weekend project. 
+Even that I write software from 9 to 5, I ocassionally do some personal projects on weekends to spice up my skills. Not all of them are "exciting enough" to be made public, this one is different given the current political events happening around the globe in 2026. While I'm not thinking on putting this into the AppStore or Play Store I wanted to make it public because someone might find it useful. That said, I TAKE NO RESPONSABILITY OVER THE SECURITY OF THIS APP. I made it as secure as I could given that was a weekend project. 
 
 Would I update this code base? Maybe, but it's not guaranteed. 
 
