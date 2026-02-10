@@ -52,7 +52,7 @@ This repository contains both the backend and frontend projects for the Whispers
 - **Contributing:**
   - Fork the repo and submit pull requests.
   - Open issues for bugs or feature requests.
-- **License:** Add your license here.
+- **License:** Apache 2.0
 
 ---
 
