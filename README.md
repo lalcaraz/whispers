@@ -4,6 +4,16 @@
 This project is just a PoC, could not be ready for production BUT i am using it as my personal chat app for my family and friends.
 This repository contains both the backend and frontend projects for the Whispers application.
 
+## Who am I?
+My name is Luis Alcaraz. I have been a Software Engineer, Network Administrator and others in between since 2005. You can find more about me at https://lalcaraz.com
+
+## Why does Whispers exists?
+Even that I write software from 9 to 5, I ocassionally do some personal projects on weekends to spice up my skills. Even that not all of them are "exciting enough" to be made public, this one is different given the current political events happening around the globe. While I'm not thinking on putting this into the AppStore or Play Stores I wanted to make it public because someone might find it useful. That being said, I TAKE NO RESPONSABILITY OVER THE SECURITY OF THIS APP. I made it as secure as I could given that was a weekend project. 
+
+Would I update this code base? Maybe, but it's not guaranteed. 
+
+---
+
 ## Project Structure
 
 - **whispers-nodejs-be/**: Node.js backend server
@@ -50,8 +60,8 @@ This repository contains both the backend and frontend projects for the Whispers
 
 - **Secrets:** Never commit secrets, API keys, or credentials. Use `.env` files and keep them out of version control.
 - **Contributing:**
-  - Fork the repo and submit pull requests.
-  - Open issues for bugs or feature requests.
+  - Fork the repo and submit pull requests. If it's of interest, i will merge it.
+  - Open issues for bugs or feature requests but don't expect a quick response. This was more of a PoC and a weekend project but I will help as much as I can.
 - **License:** Apache 2.0
 
 ---
