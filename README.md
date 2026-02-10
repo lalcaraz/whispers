@@ -1,5 +1,7 @@
 # Whispers - An E2E encrypted chat application that moves messages over push notifications.
 
+https://github.com/user-attachments/assets/57fd3849-ad71-440e-80dd-5ae928881e0f
+
 ## IMPORTANT
 This project is just a PoC, could not be ready for production BUT i am using it as my personal chat app for my family and friends.
 This repository contains both the backend and frontend projects for the Whispers application.
