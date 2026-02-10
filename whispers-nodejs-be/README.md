@@ -2,6 +2,32 @@
 
 Enterprise-grade Node.js relay service for Expo push notifications with cryptographic authentication. Designed for secure, decentralized message routing across multiple independent backend instances.
 
+
+## Getting Started
+1. **Install dependencies:**
+  ```bash
+  npm install
+  ```
+
+2. **Configure environment variables:**
+  - Copy the example file and edit as needed:
+    ```bash
+    cp .env.example .env
+    ```
+  - Open `.env` and fill in the required values.
+
+3. **Start the development server:**
+  ```bash
+  npm run dev
+  ```
+
+4. **Expose the service (optional, for external access):**
+  - Use [ngrok](https://ngrok.com/) to create a secure tunnel:
+    ```bash
+    ngrok http 3000
+    ```
+  - Add the generated ngrok URL in the frontend project.
+
 ## Overview
 
 Whispers Backend acts as a secure relay between mobile applications and Expo's push notification service. It authenticates requests using ed25519 signatures, stores recipient mappings in SQLite, and forwards encrypted messages through push notifications.

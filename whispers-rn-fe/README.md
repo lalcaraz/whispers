@@ -2,6 +2,34 @@
 
 A React Native mobile application built with Expo, featuring end-to-end encrypted messaging with Ed25519 cryptography, QR-based contact pairing, and local SQLite storage.
 
+## Getting Started
+
+1. **Create a Google Firebase Project**
+  - Set up a new project in the [Firebase Console](https://console.firebase.google.com/).
+  - Download the `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) files.
+  - Place both files in the root of the `whispers-rn-fe` directory.
+
+2. **Register the Project on Expo.dev**
+  - Create a new project at [Expo.dev](https://expo.dev/).
+  - Obtain your EAS (Expo Application Services) project ID.
+
+3. **Configure Environment Variables**
+  - Copy `.env.example` to a new file named `.env`.
+  - Fill in all required values in the `.env` file.
+
+4. **Update Application Constants**
+  - Open `src/constants.ts`.
+  - Complete any required configuration values as indicated in the file.
+
+5. **Install Dependencies and Start the App**
+  - Run `npm install` to install all dependencies.
+  - Start the development server with `npm start`.
+
+6. **Connect with the Expo Go App**
+  - Open the Expo Go app on your mobile device.
+  - Scan the QR code displayed in your terminal or browser to launch the application.
+
+
 ## Features
 
 - **End-to-End Encryption**: X25519 ECDH key agreement + ChaCha20-Poly1305 AEAD cipher + Ed25519 signatures
