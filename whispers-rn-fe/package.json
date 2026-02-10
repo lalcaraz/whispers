@@ -1,0 +1,50 @@
+{
+  "name": "whispers",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "build-eas-prod-android": "eas build --platform android",
+    "build-eas-prod-ios": "eas build --platform ios",
+    "build-local-android-release" : "cd android && ./gradlew clean && ./gradlew assembleRelease && adb uninstall com.lalcaraz.whispers && adb install app/build/outputs/apk/release/app-release.apk && cd ..",
+    "build-local-android-debug" : "cd android && ./gradlew clean && ./gradlew assembleDebug && adb uninstall com.lalcaraz.whispers && adb install app/build/outputs/apk/debug/app-debug.apk && cd ..",
+    "proxy-server": "node proxy-server.js",
+    "list-android-devices": "adb devices"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^2.1.1",
+    "@noble/curves": "^2.0.1",
+    "@noble/ed25519": "3.0.0",
+    "@react-native-firebase/app": "^23.8.6",
+    "@react-navigation/native": "7.1.28",
+    "@react-navigation/native-stack": "7.12.0",
+    "axios": "^1.13.4",
+    "expo": "54.0.33",
+    "expo-camera": "17.0.10",
+    "expo-clipboard": "8.0.8",
+    "expo-crypto": "15.0.8",
+    "expo-dev-client": "~6.0.20",
+    "expo-device": "8.0.10",
+    "expo-localization": "^17.0.8",
+    "expo-notifications": "0.32.16",
+    "expo-screen-capture": "8.0.9",
+    "expo-secure-store": "15.0.8",
+    "expo-sensors": "15.0.8",
+    "expo-sqlite": "16.0.10",
+    "expo-status-bar": "3.0.9",
+    "expo-system-ui": "6.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-qrcode-svg": "6.3.21",
+    "react-native-safe-area-context": "5.6.0",
+    "react-native-screens": "4.16.0",
+    "react-native-svg": "15.12.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.17",
+    "typescript": "5.9.3"
+  },
+  "private": true
+}
