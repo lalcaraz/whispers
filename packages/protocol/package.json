@@ -1,0 +1,23 @@
+{
+  "name": "@whispers/protocol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Whispers wire protocol: version, header, signed-message formats, key parsing. Pure, zero runtime deps.",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "react-native": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test test/*.test.mts",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}

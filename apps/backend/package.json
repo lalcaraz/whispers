@@ -1,0 +1,35 @@
+{
+  "name": "@whispers/backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple relay backend for Expo push notifications",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test test/*.test.js",
+    "typecheck": "node --check src/server.js && node --check src/app.js && node --check src/auth.js && node --check src/db.js",
+    "smoke": "node scripts/smoke.js",
+    "sec-probe": "node scripts/sec-probe.js"
+  },
+  "keywords": [
+    "expo",
+    "push-notifications",
+    "relay"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@whispers/protocol": "*",
+    "better-sqlite3": "9.6.0",
+    "dotenv": "^16.4.7",
+    "expo-server-sdk": "3.7.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.1.0",
+    "tweetnacl": "1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  }
+}

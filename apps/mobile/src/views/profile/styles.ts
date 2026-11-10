@@ -1,0 +1,172 @@
+import { StyleSheet } from 'react-native';
+import type { ThemeColors } from '@/theme';
+
+export const makeStyles = (c: ThemeColors) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: c.screen,
+    },
+    contentContainer: {
+      padding: 20,
+      paddingBottom: 60,
+    },
+    regenerateButton: {
+      backgroundColor: c.danger,
+      paddingVertical: 12,
+      paddingHorizontal: 20,
+      borderRadius: 8,
+      marginBottom: 20,
+      alignItems: 'center',
+      shadowColor: c.shadow,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    regenerateButtonDisabled: {
+      backgroundColor: c.dangerDisabled,
+      opacity: 0.7,
+    },
+    regenerateButtonText: {
+      color: c.onDanger,
+      fontSize: 16,
+      fontWeight: '600',
+    },
+    qrSection: {
+      backgroundColor: c.surface,
+      borderRadius: 12,
+      padding: 20,
+      marginBottom: 20,
+      alignItems: 'center',
+      shadowColor: c.shadow,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    sectionTitle: {
+      fontSize: 18,
+      fontWeight: '600',
+      color: c.textPrimary,
+      marginBottom: 20,
+    },
+    qrContainer: {
+      padding: 20,
+      backgroundColor: c.qrBackground,
+      borderRadius: 8,
+    },
+    qrPlaceholder: {
+      width: 200,
+      height: 200,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: c.surfaceAlt,
+    },
+    qrPlaceholderText: {
+      color: c.textMuted,
+      fontSize: 14,
+    },
+    keySection: {
+      gap: 20,
+      paddingBottom: 20,
+    },
+    keyContainer: {
+      backgroundColor: c.surface,
+      borderRadius: 12,
+      padding: 16,
+      shadowColor: c.shadow,
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      elevation: 3,
+    },
+    keyHeader: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      marginBottom: 12,
+    },
+    keyLabel: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: c.textPrimary,
+    },
+    copyButton: {
+      backgroundColor: c.accent,
+      paddingHorizontal: 16,
+      paddingVertical: 6,
+      borderRadius: 6,
+    },
+    copyButtonText: {
+      color: c.onAccent,
+      fontSize: 14,
+      fontWeight: '500',
+    },
+    keyInput: {
+      backgroundColor: c.surfaceAlt,
+      borderWidth: 1,
+      borderColor: c.border,
+      borderRadius: 8,
+      padding: 12,
+      fontSize: 12,
+      fontFamily: 'monospace',
+      color: c.textPrimary,
+      minHeight: 60,
+    },
+    privateKeyInput: {
+      minHeight: 80,
+    },
+    privateKeyNote: {
+      fontSize: 12,
+      color: c.textSecondary,
+      marginTop: 8,
+      fontStyle: 'italic',
+    },
+    warningSection: {
+      backgroundColor: c.warningBg,
+      borderRadius: 12,
+      padding: 16,
+      marginBottom: 20,
+      borderWidth: 1,
+      borderColor: c.warningBorder,
+    },
+    warningText: {
+      fontSize: 14,
+      color: c.warningText,
+      lineHeight: 20,
+      textAlign: 'center',
+    },
+    languageOptions: {
+      gap: 8,
+    },
+    languageOption: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingVertical: 12,
+      paddingHorizontal: 16,
+      borderRadius: 8,
+      backgroundColor: c.surfaceAlt,
+      borderWidth: 1,
+      borderColor: c.border,
+    },
+    languageOptionActive: {
+      backgroundColor: c.accent,
+      borderColor: c.accent,
+    },
+    languageOptionText: {
+      fontSize: 16,
+      color: c.textPrimary,
+      fontWeight: '500',
+    },
+    languageOptionTextActive: {
+      color: c.onAccent,
+      fontWeight: '600',
+    },
+    checkmark: {
+      fontSize: 18,
+      color: c.onAccent,
+      fontWeight: 'bold',
+    },
+  });

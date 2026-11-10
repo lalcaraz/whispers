@@ -1,0 +1,33 @@
+# Dependencies (hoisted to the workspace root)
+node_modules/
+
+# Build / task-runner output
+.turbo/
+packages/*/dist/
+*.tsbuildinfo
+
+# Expo/RN artifacts only ever belong under apps/mobile/ — anything here at the
+# repo root means an expo command was run in the wrong directory.
+/ios/
+/android/
+/.expo/
+/app.json
+
+# Secrets and local state — every operator provides their own
+.env
+.env*.local
+apps/backend/data/
+*.db
+apps/mobile/google-services.json
+apps/mobile/GoogleService-Info.plist
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+
+# Editor
+.idea/
+*.swp
+*.swo
